@@ -23,7 +23,9 @@ Steps Performed
 5. Evaluated model accuracy.
 
 Result
+
 The model achieved an accuracy of 1.0 (100%) on the test dataset.
 
 Author
+
 Himanshi Sharma
