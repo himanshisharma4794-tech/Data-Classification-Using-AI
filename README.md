@@ -1,31 +1,63 @@
-Data Classification Using AI
+### Project 2: Data Classification Using AI
 
-Overview
+This repository contains the implementation of **Project 2: Data Classification** as part of the DecodeLabs internship program. The project demonstrates a transition from traditional heuristic logic to a modern AI-driven Supervised Learning approach.
 
-This project demonstrates a simple machine learning classification model using the Iris dataset. The model is trained to classify iris flowers into different species based on their features.
+### 📌 Project Overview
 
-Technologies Used
+*   **Goal:** Build a basic data classification model using a supervised learning algorithm.
+*   **Key Skills Covered:** Data handling, Train-Test data splitting, Supervised learning basics, and Model training.
+*   **Architecture:** Utilizes 2 key features to process data points and establish an optimized decision boundary.
 
-- Python
-- Scikit-learn
-- Google Colab
+### 🛠️ Tech Stack & Prerequisites
 
-Algorithm Used
+*   **Language:** Python 3.x
+*   **Libraries Required:**
+    *   `numpy`
+    *   `pandas`
+    *   `scikit-learn`
 
-- Decision Tree Classifier
+### 🚀 How to Run the Project
 
-Steps Performed
+### Method 1: Using Google Colab (Cloud)
 
-1. Loaded the Iris dataset.
-2. Split the data into training and testing sets.
-3. Trained the Decision Tree model.
-4. Predicted results on test data.
-5. Evaluated model accuracy.
+1.  Open [Google Colab](/url?sa=i&source=web&rct=j&url=https://colab.research.google.com/&ved=2ahUKEwj1m-mW_ZCVAxUdaGwGHavQG4gQy_kOegYIAAgGEA4&opi=89978449&cd&psig=AOvVaw1Lku7MLps29h5nIQ6-LIPp&ust=1781878595146000).
+2.  Create a new notebook and paste the code from `project2.py`.
+3.  Click the **Run** button.
 
-Result
+### Method 2: Local Machine Setup
 
-The model achieved an accuracy of 1.0 (100%) on the test dataset.
+1.  Clone this repository or download the source code.
+2.  Install the required dependencies using Terminal/Command Prompt:
+    
+    bash
+    
+        pip install numpy pandas scikit-learn
+        
+    
+    Use code with caution.
+    
+3.  Run the python script:
+    
+    bash
+    
+        python project2.py
+        
+    
+    Use code with caution.
+    
 
-Author
+### 📊 Logic Skeleton: Old Way vs. New Way
 
-Himanshi Sharma
+*   **Old Way (Heuristic):** Relied on hardcoded rules, nested if-else loops, and rigid manual logic flowcharts.
+*   **New Way (Supervised Learning):** Automatically learns patterns from labeled dataset features and defines an adaptive decision boundary.
+
+### 📝 Performance Metrics
+
+The model splits data into a **70% Training set** and a **30% Testing set**, evaluation metrics include:
+
+*   Accuracy Score
+*   Precision, Recall, and F1-Score via Classification Report
+
+* * *
+
+*Developed as part of the DecodeLabs Internship Journey.*
